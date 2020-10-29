@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+
+li {
+    display: list-item;
+}
+
+div {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0ppx;
+}

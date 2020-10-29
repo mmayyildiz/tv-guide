@@ -1,0 +1,6 @@
+.calendarDay {
+    display: inline-block;
+    padding-right: 5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}

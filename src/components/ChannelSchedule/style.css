@@ -1,0 +1,49 @@
+.tvguide .tvg-grid__program {
+
+    position: relative;
+    box-sizing: border-box;
+    width: 230px;
+    height: 90px;
+    border-right: 2px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.tvguide .tvg-grid__program.is-onair:before, .tvguide .tvg-grid__program.has-aired:before {
+    background-color: #edeeee;
+}
+
+.tvguide .tvg-grid__program:before {
+
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background: white;
+}
+
+
+.tvguide .tvg-grid__program:after {
+
+    content: '';
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    z-index: -2;
+    display: block;
+    background: linear-gradient(90deg,#f3242e,#ff9a35);
+    opacity: 0;
+}

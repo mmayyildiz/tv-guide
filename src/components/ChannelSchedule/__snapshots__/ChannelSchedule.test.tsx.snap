@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Airing should render with props 1`] = `ShallowWrapper {}`;
+
+exports[`ChannelSchedule should render with props 1`] = `ShallowWrapper {}`;
